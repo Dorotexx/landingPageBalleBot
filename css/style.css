@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+ font-size: 100%;
+ background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+ color: #FFF2E7;   
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    color: white;
+}
+
+.header-content-img{
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 35px;
+}
+
+.header-content-item{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.balle-bot-content{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.bot-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.balle-bot-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.balle-bot-txt h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.balle-bot-txt h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #ECD6C4;
+    font-size: 24px;
+}
+
+.balle-bot-btn{
+    font-family: 'Sarala', sans-serif;
+    background-color: #ECD6C4;
+    color: #2F2325;
+    width: 145px;
+    height: 53px;
+    box-shadow: 4px 5px 4px rgba (0,0,0,0.25);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.bot-content img{
+    height: 435px;
+}
+
+.balle-bot-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin-top: 48px;
+}
+
+.balle-bot-text h3{
+    font-family: 'Righteous', cursive;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.balle-bot-text p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+footer{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+footer img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
+
